@@ -8,11 +8,11 @@ var handlers = {
 	'LaunchRequest' : function() {
 		var audioinfo = audioData[0];
 			var title = audioinfo.title;
-			var message = audioinfo.message1; //"<audio src='" + audioinfo.url + "' /> " + audioinfo.message1;
+			var message = audioinfo.message1 + " <audio src='" + audioinfo.audioURL + "' /> " + audioinfo.message2;
 			var reprompt = "Did you say something?";
 			var imageURL = audioinfo.img;
 
-			this.response.cardRenderer(title, message, imageURL);
+			this.response.cardRenderer(title, message); //, imageURL);
 			this.response.speak(message).listen(reprompt);
 			this.emit(':responseReady');
 	}, 

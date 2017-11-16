@@ -3,9 +3,9 @@
 var audioData = [
 	{
 		'title' : 'Title',
-		'audioURL' : '',
-		'message1' : '',
-		'message2' : '',
+		'audioURL' : 'https://s3.us-east-2.amazonaws.com/nasa.audio/assets/sounds/liftOff.mp3',
+		'message1' : 'Hello Space!',
+		'message2' : 'What up?',
 		'image' : {
 			'smallImageUrl' : '',
 			'largeImageUrl' : ''

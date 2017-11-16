@@ -8,7 +8,7 @@ exports.handler = (event, context, callback) => {
 
 	alexa.appId = '';
 
-	alexa.registerhandlers( 
+	alexa.registerHandlers( 
 		handlers
 	);
 
