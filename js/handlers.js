@@ -4,7 +4,7 @@ var AlexaSDK = require('alexa-sdk');
 var audioData = require('./audioData');
 
 var handlers = {
-
+//TO DO - add all other intents, play random message
 	'LaunchRequest' : function() {
 		var audioinfo = audioData[0];
 			var title = audioinfo.title;

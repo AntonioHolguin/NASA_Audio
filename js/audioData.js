@@ -1,5 +1,6 @@
 'use-strict';
 
+// TO DO - add more fields about the nasa clips
 var audioData = [
 	{
 		'title' : 'Title',
